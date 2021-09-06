@@ -23,11 +23,11 @@ async function tambahkan(): Promise<void> {
 }
 tambahkan()
 
-// async function ambil(): Promise<void> {
-// 	const {data} = await post(sql, stringify({
-// 		id: link,
-// 		kunci: 'tampil'
-// 	}))
-// 	console.log(data)
-// }
-// ambil()
+async function ambil(): Promise<void> {
+	const {data} = await post(sql, stringify({
+		id: link,
+		kunci: 'tampil'
+	}))
+	console.log(data)
+}
+ambil()
