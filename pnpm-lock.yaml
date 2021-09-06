@@ -1,18 +1,24 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/qs': ^6.9.7
   axios: ^0.21.3
   qs: ^6.10.1
   typescript: ^4.3.2
   vite: ^2.5.2
 
 devDependencies:
+  '@types/qs': 6.9.7
   axios: 0.21.3
   qs: 6.10.1
   typescript: 4.4.2
   vite: 2.5.3
 
 packages:
+
+  /@types/qs/6.9.7:
+    resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
+    dev: true
 
   /axios/0.21.3:
     resolution: {integrity: sha512-JtoZ3Ndke/+Iwt5n+BgSli/3idTvpt5OjKyoCmz4LX5+lPiY5l7C1colYezhlxThjNa/NhngCUWZSZFypIFuaA==}
